@@ -1,0 +1,10 @@
+def calculate_mars_weight(weight):
+    weight = weight * 0.378
+    # x = e_weight
+    # y = m_weight
+    return weight
+
+e_weight = input("Earth Weight: ")
+e_weight = int(e_weight)
+m_weight = calculate_mars_weight(e_weight)
+print(f"Mars Weight: {m_weight}")
